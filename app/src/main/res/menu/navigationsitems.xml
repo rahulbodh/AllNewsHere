@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="English News">
+            <menu>
+                <item
+                    android:id="@+id/bbc"
+                    android:icon="@drawable/bbc"
+
+                    android:title="BBC" />
+
+                <item
+                    android:id="@+id/alzera"
+                    android:icon="@drawable/aljazeera"
+                    android:title="Al Jazeera"
+
+
+
+                    />
+                <item
+                    android:id="@+id/cnn"
+                    android:icon="@drawable/cnn"
+                    android:title="CNN"
+
+                    />
+                <item
+                    android:id="@+id/foxNews"
+                    android:icon="@drawable/foxnews"
+                    android:title="Fox News"
+
+                    />
+                <item
+                    android:id="@+id/skynews"
+                    android:icon="@drawable/skynews"
+                    android:title="Sky News"
+
+                    />
+
+
+            </menu>
+        </item>
+
+
+
+
+    <item android:title="Hindi News">
+
+        <menu>
+            <item
+                android:id="@+id/Aajtak"
+                android:icon="@drawable/aajtak"
+                android:title="Aaj tak" />
+
+            <item
+                android:id="@+id/NDTV"
+                android:icon="@drawable/ndtv"
+                android:title="NDTV" />
+
+            <item
+                android:id="@+id/ABP"
+                android:icon="@drawable/abp"
+                android:title="APB News" />
+
+            <item
+                android:id="@+id/IndiaToday"
+                android:icon="@drawable/indiatoday"
+                android:title="india today" />
+            <item
+                android:id="@+id/RepublicBharat"
+                android:icon="@drawable/republicbharat"
+                android:title="Republic Bharat" />
+        </menu>
+    </item>
+    </group>
+
+</menu>
